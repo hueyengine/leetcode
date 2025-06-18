@@ -2,7 +2,7 @@ const arrayToTree = require('./tree-1-2.数组转二叉树.js');
 const printTree = require('./tree-1-2.打印二叉树.js');
 
 /**
- * 前序遍历，左右子树要交换，并且左右子树内部的所有子树，都要进行左右子树的交换。
+ * 方法一：前序遍历，左右子树要交换，并且左右子树内部的所有子树，都要进行左右子树的交换。
  * @param {TreeNode} root
  * @return {TreeNode}
  */
@@ -20,7 +20,7 @@ const printTree = require('./tree-1-2.打印二叉树.js');
 // };
 
 /**
- * 后序遍历，左右子树要交换，并且左右子树内部的所有子树，都要进行左右子树的交换。
+ * 方法二：后序遍历，左右子树要交换，并且左右子树内部的所有子树，都要进行左右子树的交换。
  * @param {TreeNode} root
  * @return {TreeNode}
  */

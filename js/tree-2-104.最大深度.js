@@ -2,6 +2,7 @@ const arrayToTree = require('./tree-1-2.数组转二叉树.js');
 const printTree = require('./tree-1-2.打印二叉树.js');
 
 /**
+ * 方法一：前序遍历递归
  * @param {TreeNode} root
  * @return {number}
  */
