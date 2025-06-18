@@ -34,9 +34,9 @@ var lengthOfLongestSubstring = function (s) {
 
     return maxLength; // 返回最长无重复子串的长度
 };
-//   console.log(lengthOfLongestSubstring("abcabcbb")); // 3
+console.log(lengthOfLongestSubstring('abcabcbb')); // 3
 console.log(lengthOfLongestSubstring('bbbbb')); // 1
-//   console.log(lengthOfLongestSubstring("pwwkew")); // 3
-//   console.log(lengthOfLongestSubstring("")); // 0
-//   console.log(lengthOfLongestSubstring("a")); // 1
-//   console.log(lengthOfLongestSubstring("dvdf")); // 3
+console.log(lengthOfLongestSubstring('pwwkew')); // 3
+console.log(lengthOfLongestSubstring('')); // 0
+console.log(lengthOfLongestSubstring('a')); // 1
+console.log(lengthOfLongestSubstring('dvdf')); // 3

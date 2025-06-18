@@ -1,10 +1,5 @@
-const printTree = require('./（二叉树）打印二叉树.js');
-
-function TreeNode(val, left, right) {
-    this.val = val === undefined ? 0 : val;
-    this.left = left === undefined ? null : left;
-    this.right = right === undefined ? null : right;
-}
+const TreeNode = require('./tree-1-1.生成二叉树节点.js');
+const printTree = require('./tree-1-2.打印二叉树.js');
 
 function arrayToTree(arr) {
     if (!arr.length) return null;
@@ -32,9 +27,4 @@ function arrayToTree(arr) {
     return root;
 }
 
-// 测试数据
-const arr = [3, 9, 20, null, null, 15, 7];
-const root = arrayToTree(arr);
-
-// 打印二叉树
-console.log(printTree(root));
+module.exports = arrayToTree;
