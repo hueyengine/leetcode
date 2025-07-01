@@ -7,6 +7,7 @@
 //     let end = nums.length - 1;
 
 //     for (let i = nums.length - 2; i >= 0; i--) {
+//         // 小于 i 的位置如果能到 end 位置，那么一定能到 i 位置，所以这里只需要判断能否到 i 位置即可。
 //         if (end - i <= nums[i]) {
 //             end = i;
 //         }
