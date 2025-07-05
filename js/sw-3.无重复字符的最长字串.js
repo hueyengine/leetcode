@@ -15,8 +15,6 @@ var lengthOfLongestSubstring = function (s) {
         // i 是右边界，不断向右扩展
         const char = s[i];
 
-        debugger;
-
         // 检查当前字符是否在窗口内重复出现，charIndexMap[char] >= start 检查该字符的上次出现位置是否在当前窗口内。
         if (charIndexMap[char] !== undefined && charIndexMap[char] >= start) {
             // 如果重复，将左边界移动到重复位置的下一个位置
@@ -29,7 +27,6 @@ var lengthOfLongestSubstring = function (s) {
         // 计算当前窗口长度，并更新最大长度
         maxLength = Math.max(maxLength, i - start + 1);
 
-        debugger;
     }
 
     return maxLength; // 返回最长无重复子串的长度
